@@ -1,0 +1,3 @@
+accuracy,precision,recall,f1,roc_auc,eer,eer_threshold,experiment,feature,classifier,selection_cv_f1,n_train,n_test,n_train_groups,n_test_groups,best_params
+0.9729166666666667,0.9825436408977556,0.985,0.9837702871410736,0.98901375,0.04574999999999999,0.3401524234898601,standard_final,lfcc,svm,0.978570625248584,9600,2400,1600,400,"{""clf__C"": 10, ""clf__gamma"": ""scale"", ""clf__kernel"": ""rbf""}"
+0.91875,0.9373368146214099,0.8975,0.9169859514687101,0.9733375,0.08250000000000002,-0.12452521826539284,unseen_hifigan_final,lfcc,svm,0.9804122955529198,8000,800,1600,400,"{""clf__C"": 10, ""clf__gamma"": ""scale"", ""clf__kernel"": ""rbf""}"

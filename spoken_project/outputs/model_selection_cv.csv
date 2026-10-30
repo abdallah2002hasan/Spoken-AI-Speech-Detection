@@ -1,0 +1,9 @@
+feature,classifier,cv_f1,n_train,n_train_groups,best_params
+lfcc,svm,0.978570625248584,9600,1600,"{""clf__C"": 10, ""clf__gamma"": ""scale"", ""clf__kernel"": ""rbf""}"
+lfcc,rf,0.9681260121501277,9600,1600,"{""clf__max_depth"": null, ""clf__min_samples_leaf"": 1, ""clf__n_estimators"": 200}"
+combined,rf,0.9091726232585549,9600,1600,"{""clf__max_depth"": 20, ""clf__min_samples_leaf"": 1, ""clf__n_estimators"": 400}"
+mfcc,rf,0.908818786767668,9600,1600,"{""clf__max_depth"": null, ""clf__min_samples_leaf"": 1, ""clf__n_estimators"": 400}"
+spectral,rf,0.9011720682527952,9600,1600,"{""clf__max_depth"": null, ""clf__min_samples_leaf"": 1, ""clf__n_estimators"": 400}"
+combined,svm,0.8934541437214997,9600,1600,"{""clf__C"": 10, ""clf__gamma"": 0.01, ""clf__kernel"": ""rbf""}"
+mfcc,svm,0.8884561089548809,9600,1600,"{""clf__C"": 10, ""clf__gamma"": 0.01, ""clf__kernel"": ""rbf""}"
+spectral,svm,0.7469138788772334,9600,1600,"{""clf__C"": 10, ""clf__gamma"": ""scale"", ""clf__kernel"": ""rbf""}"

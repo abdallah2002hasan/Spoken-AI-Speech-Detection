@@ -1,0 +1,12 @@
+dataset_root: data/wavefake
+output_dir: outputs
+sample_rate: 16000
+duration_seconds: 4.0
+n_mfcc: 20
+n_lfcc: 20
+n_fft: 512
+hop_length: 160
+win_length: 400
+random_state: 42
+test_size: 0.20
+unseen_generator: hifigan
